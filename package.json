@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@guygolanil/ferret-api-client": "npm:@guygolanIL/ferret-api-client@1.1.0",
+    "@tanstack/react-query": "^5.15.0",
+    "axios": "^1.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.14.6",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",

@@ -8,13 +8,8 @@
 <br/>
 <br/>
 
-## Start
-To start server `npm start`
-
 ## Development
 To run nodemon server `npm run dev`
 
-## Client Release
-To release api client version `npm run publish-client`
 
 

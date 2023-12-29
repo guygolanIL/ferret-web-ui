@@ -9,7 +9,6 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Main />
-      <div>{JSON.stringify(import.meta.env)}</div>
     </QueryClientProvider>
   )
 }

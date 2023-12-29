@@ -1,5 +1,5 @@
 import { useMutation } from "@tanstack/react-query"
-import { Configuration, DefaultApi, ImageDataBase64 } from '@guygolanil/ferret-api-client';
+import { Configuration, DefaultApi, ImageDataBase64 } from 'ferret-api-client';
 import { useState } from "react";
 
 const serverUrl = import.meta.env.API_URL

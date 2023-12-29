@@ -7,11 +7,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "preinstall": "npm login --registry=https://npm.pkg.github.com"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@guygolanil/ferret-api-client": "npm:@guygolanIL/ferret-api-client@1.1.0",
+    "@guygolanil/ferret-api-client": "@guygolanIL/ferret-api-client@1.1.0",
     "@tanstack/react-query": "^5.15.0",
     "axios": "^1.6.3",
     "react": "^18.2.0",

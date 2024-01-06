@@ -1,3 +1,6 @@
-export function VideoFeed() {
-    return <video style={{ border: "1px solid black" }}>video</video>
+export function VideoFeed(props: { videoRef: React.Ref<HTMLVideoElement> }) {
+    return <video
+        ref={props.videoRef}
+        style={{ aspectRatio: 1, borderRadius: "50%", width: 400, height: 400 }}
+    />
 }

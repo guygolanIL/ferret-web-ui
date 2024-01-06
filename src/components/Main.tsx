@@ -31,7 +31,7 @@ export function Main() {
 				lineBreak: 'anywhere',
 				padding: '50px'
 			}}>
-				<VideoFeed />
+				<VideoFeed videoRef={session.video.videoElRef} />
 			</div>
 
 		</div>
